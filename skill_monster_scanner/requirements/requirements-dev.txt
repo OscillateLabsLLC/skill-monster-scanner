@@ -3,3 +3,4 @@ ovos_plugin_manager
 pytest
 pytest-cov
 setuptools
+ovos_config

@@ -41,6 +41,7 @@ def reset_skill_mocks(test_skill):
 
 
 class TestMonsterScannerSkill():
+    environ["TEST_SKILL_ENTRYPOINT"] = "skill-monster-scanner.mikejgray"
     test_fs = join(dirname(__file__), "skill_fs")
     data_dir = join(test_fs, "data")
     conf_dir = join(test_fs, "config")
