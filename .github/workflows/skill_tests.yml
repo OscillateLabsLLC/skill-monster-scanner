@@ -21,6 +21,9 @@ jobs:
     permissions:
       contents: read
     uses: neongeckocom/.github/.github/workflows/skill_test_intents.yml@master
+    with:
+      ovos_versions: "[3.8, 3.9, '3.10', '3.11', '3.12']"
+      neon_versions: "[3.8, 3.9, '3.10', '3.11', '3.12']"
   skill_resource_tests:
     name: skill_resource_tests
     permissions:
