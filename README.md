@@ -27,7 +27,7 @@ Note: If you are running Neon, the skill settings file will be located at `~/.co
 
 ## Category
 
-- Fun
+Fun
 
 ## Tags
 

@@ -56,6 +56,7 @@ class TestMonsterScannerSkill():
         test_skill.handle_monster_under_bed_intent(Mock())
         assert test_skill.scary is False
         test_skill.speak_dialog.assert_called_with("no_monsters")
+        assert call("monsters") not in test_skill.speak_dialog.call_args_list
 
     def test_sometimes_monsters(self, test_skill):
         test_skill.settings["scary"] = True
