@@ -1,0 +1,25 @@
+# Specify resources to test here.
+
+# Specify languages to be tested
+languages:
+  - "en-us"
+
+regex: []
+
+# vocab is lowercase .voc file basenames
+vocab:
+  - bed
+  - monsters
+  - search
+  - under
+
+# dialog is .dialog file basenames (case-sensitive)
+dialog:
+  - bad_file
+
+intents:
+  # Padatious intents are the `.intent` file names
+  padatious: []
+  # Adapt intents are the names passed to `IntentBuilder`
+  adapt:
+    - monster_scanner_intent

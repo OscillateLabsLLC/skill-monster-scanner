@@ -1,0 +1,7 @@
+skillMetadata:
+  sections:
+    - name: Scary Monster Scanner
+      fields:
+        - type: checkbox
+          label: Make it so there are monsters sometimes? Warning, not for little kids!
+          value: "false"

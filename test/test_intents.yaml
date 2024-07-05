@@ -1,0 +1,30 @@
+# Specify intents to test
+# Basic intent match tests only:
+en-us:
+  MonsterScannerIntent:
+    - are there monsters under the bed
+    - are there monsters under my bed
+    - is the boogeyman under the bed
+    - search for monsters under the bed
+    - search for monsters under my bed
+    - search for the boogeyman under the bed
+    - search for the boogeyman under my bed
+    - look for monsters under the bed
+    - look for monsters under my bed
+    - look for the boogeyman under the bed
+    - look for the boogeyman under my bed
+    - find the boogeyman under my bed
+    - find the boogeyman under the bed
+    - find monsters under my bed
+    - find monsters under the bed
+# Intent tests with specific vocab/entity extraction tests:
+#lang:
+#  intent_name:
+#    - example_utterance:
+#        - expected_vocab_key: expected_vocab_value
+#        - expected_entity_key: expected_entity_value
+
+# Test phrases that should NOT match any skill intent:
+#unmatched intents:
+#  lang:
+#    - example unmatched utterance
