@@ -41,6 +41,7 @@ def reset_skill_mocks(test_skill):
 
 
 class TestMonsterScannerSkill():
+    environ["TEST_SKILL_ENTRYPOINT"] = "skill-monster-scanner.mikejgray"
     test_fs = join(dirname(__file__), "skill_fs")
     data_dir = join(test_fs, "data")
     conf_dir = join(test_fs, "config")
@@ -56,6 +57,7 @@ class TestMonsterScannerSkill():
         test_skill.handle_monster_under_bed_intent(Mock())
         assert test_skill.scary is False
         test_skill.speak_dialog.assert_called_with("no_monsters")
+        assert call("monsters") not in test_skill.speak_dialog.call_args_list
 
     def test_sometimes_monsters(self, test_skill):
         test_skill.settings["scary"] = True

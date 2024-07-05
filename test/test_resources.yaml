@@ -15,11 +15,12 @@ vocab:
 
 # dialog is .dialog file basenames (case-sensitive)
 dialog:
-  - bad_file
+  - monsters
+  - no_monsters
 
 intents:
   # Padatious intents are the `.intent` file names
   padatious: []
   # Adapt intents are the names passed to `IntentBuilder`
   adapt:
-    - monster_scanner_intent
+    - MonsterScannerIntent
