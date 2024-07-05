@@ -22,4 +22,4 @@ intents:
   padatious: []
   # Adapt intents are the names passed to `IntentBuilder`
   adapt:
-    - monster_scanner_intent
+    - MonsterScannerIntent
