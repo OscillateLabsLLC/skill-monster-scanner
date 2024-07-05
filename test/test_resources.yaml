@@ -15,7 +15,8 @@ vocab:
 
 # dialog is .dialog file basenames (case-sensitive)
 dialog:
-  - bad_file
+  - monsters
+  - no_monsters
 
 intents:
   # Padatious intents are the `.intent` file names
