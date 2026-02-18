@@ -1,5 +1,7 @@
 # Monster Scanner Skill
 
+[![Status: Active](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/OscillateLabsLLC/.github/blob/main/SUPPORT_STATUS.md)
+
 ## About
 
 A skill to help your children feel safe at night by scanning for monsters under the bed.
