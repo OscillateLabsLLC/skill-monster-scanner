@@ -1,26 +1,41 @@
 {
-    "title": "",
-    "url": "https://github.com/mikejgray/skill-monster-scanner",
-    "summary": "",
-    "short_description": null,
     "description": "A skill to help your children feel safe at night by scanning for monsters under the bed.",
     "examples": [
         "Are there monsters under my bed?",
         "Is the Boogeyman under the bed?"
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "credits": [
+        "Mike Gray"
+    ],
+    "categories": [
+        "Fun"
+    ],
+    "tags": "ovos skill voice assistant",
+    "category": "Fun",
+    "package_name": "skill-monster-scanner",
+    "pip_spec": "skill-monster-scanner",
+    "license": "Apache-2.0",
+    "author": "Mike Gray",
+    "version": "1.0.1",
+    "url": "https://github.com/mikejgray/skill-monster-scanner",
+    "skill_id": "skill-monster-scanner.mikejgray=skill_monster_scanner:MonsterScannerSkill",
+    "skillname": "skill-monster-scanner",
+    "authorname": "mikejgray",
+    "name": "skill-monster-scanner",
+    "title": "skill-monster-scanner",
     "requirements": {
         "python": [
-            "ovos-bus-client",
-            "ovos-plugin-manager",
             "ovos-utils",
-            "ovos-workshop"
+            "ovos-bus-client",
+            "ovos-workshop",
+            "ovos-plugin-manager"
         ],
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -30,23 +45,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "Unknown",
-    "icon": "",
-    "category": "Fun",
-    "categories": [
-        "Fun"
-    ],
-    "tags": [
-        "ovos skill neon skill monster scanner kids children fun silly"
-    ],
-    "credits": [
-        "-",
-        "Mike",
-        "Gray",
-        "(@mikejgray)"
-    ],
-    "skillname": "skill-monster-scanner",
-    "authorname": "mikejgray",
     "foldername": null,
-    "configuration": "If you feel like being a monster yourself, you can set `scary` in the config to `true` and the skill will sometimes find a monster. Under skill settings (`~/.config/mycroft/skills/skill-monster-scanner.mikejgray/settings.json`): | Option  | Value   | Description                                                  | | ------- | ------- | ------------------------------------------------------------ | | `scary` | `false` | Whether or not to occasionally find a monster under the bed. | Note: If you are running Neon, the skill settings file will be located at `~/.config/neon/skills/skill-monster-scanner.mikejgray/settings.json`."
+    "short_description": null
 }
