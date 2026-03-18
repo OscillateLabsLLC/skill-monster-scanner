@@ -7,7 +7,8 @@ name = "skill-monster-scanner"
 version = "2.0.0"
 description = "An OVOS voice skill that scans for monsters under the bed"
 authors = [{ name = "Oscillate Labs", email = "mike@oscillatelabs.net" }]
-license = { file = "LICENSE" }
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = ["ovos", "neon", "skill", "voice", "kids", "fun"]
