@@ -3,7 +3,7 @@
     "source": "https://github.com/oscillatelabsllc/skill-monster-scanner",
     "package_name": "skill-monster-scanner",
     "pip_spec": "skill-monster-scanner",
-    "license": "LICENSE",
+    "license": "Apache-2.0",
     "author": [
         "Oscillate Labs <mike@oscillatelabs.net>"
     ],
