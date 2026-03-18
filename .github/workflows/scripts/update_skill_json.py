@@ -59,8 +59,8 @@ def get_skill_data(skill_dir: str, lang_code: str = "en-us"):
     skill_data["name"] = project.get("name", "Unknown")
     skill_data["description"] = project.get("description", "Unknown")
     skill_data["pip_spec"] = project.get("name", "Unknown")
-    lic = project.get("license", {})
-    skill_data["license"] = lic.get("text", lic.get("file", "Unknown"))
+    lic = project.get("license", "Unknown")
+    skill_data["license"] = lic if isinstance(lic, str) else lic.get("text", lic.get("file", "Unknown"))
     skill_data["tags"] = project.get("keywords", ["ovos", "neon"])
     skill_data["version"] = project.get("version", "")
 
