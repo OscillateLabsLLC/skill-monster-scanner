@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skill-monster-scanner"
+version = "2.0.0"
+description = "An OVOS voice skill that scans for monsters under the bed"
+authors = [{ name = "Oscillate Labs", email = "mike@oscillatelabs.net" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["ovos", "neon", "skill", "voice", "kids", "fun"]
+dependencies = [
+    "ovos-utils",
+    "ovos-bus-client",
+    "ovos-workshop",
+    "ovos-plugin-manager",
+]
+
+[project.optional-dependencies]
+test = [
+    "neon-minerva~=0.2.0",
+    "ovos-plugin-manager",
+    "pytest",
+    "pytest-cov",
+    "ovos-config",
+    "setuptools<82",
+]
+
+[project.urls]
+Homepage = "https://github.com/oscillatelabsllc/skill-monster-scanner"
+
+[project.entry-points."ovos.plugin.skill"]
+"skill-monster-scanner.oscillatelabsllc" = "skill_monster_scanner:MonsterScannerSkill"
+
+[tool.setuptools.package-data]
+skill_monster_scanner = ["locale/**/*", "settingsmeta.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+addopts = "--cov=skill_monster_scanner --cov-report=term-missing"
+
+[tool.ruff]
+line-length = 119

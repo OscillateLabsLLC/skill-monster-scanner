@@ -14,7 +14,7 @@ from skill_monster_scanner import MonsterScannerSkill
 
 
 @pytest.fixture(scope="session")
-def test_skill(test_skill_id="skill-monster-scanner.mikejgray", bus=FakeBus()):
+def test_skill(test_skill_id="skill-monster-scanner.oscillatelabsllc", bus=FakeBus()):
     # Get test skill
     bus.emitter = bus.ee
     bus.run_forever()
@@ -41,7 +41,7 @@ def reset_skill_mocks(test_skill):
 
 
 class TestMonsterScannerSkill():
-    environ["TEST_SKILL_ENTRYPOINT"] = "skill-monster-scanner.mikejgray"
+    environ["TEST_SKILL_ENTRYPOINT"] = "skill-monster-scanner.oscillatelabsllc"
     test_fs = join(dirname(__file__), "skill_fs")
     data_dir = join(test_fs, "data")
     conf_dir = join(test_fs, "config")
