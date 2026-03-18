@@ -1,9 +1,4 @@
-node_modules/
-!/.gitattributes
-!/.projen/tasks.json
-!/.github/workflows/pull-request-lint.yml
 .DS_Store
-node_modules
 __pycache__/
 *.py[cod]
 *$py.class
@@ -63,7 +58,7 @@ celerybeat-schedule
 celerybeat.pid
 *.sage.py
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
@@ -79,10 +74,3 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
-!/setup.py
-!/.github/workflows/license_tests.yml
-!/.github/workflows/propose_release.yml
-!/.github/workflows/publish_alpha.yml
-!/.github/workflows/publish_release.yml
-!/.github/workflows/skill_tests.yml
-!/.github/workflows/update_skill_json.yml

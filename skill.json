@@ -1,50 +1,25 @@
 {
-    "description": "A skill to help your children feel safe at night by scanning for monsters under the bed.",
+    "skill_id": "skill_monster_scanner.oscillatelabsllc",
+    "source": "https://github.com/oscillatelabsllc/skill-monster-scanner",
+    "package_name": "skill-monster-scanner",
+    "pip_spec": "skill-monster-scanner",
+    "license": "Apache-2.0",
+    "author": [
+        "Oscillate Labs <mike@oscillatelabs.net>"
+    ],
+    "icon": "",
+    "images": [],
+    "name": "skill-monster-scanner",
+    "description": "An OVOS voice skill that scans for monsters under the bed",
     "examples": [
         "Are there monsters under my bed?",
         "Is the Boogeyman under the bed?"
     ],
-    "credits": [
-        "Mike Gray"
+    "tags": [
+        "ovos",
+        "neon",
+        "kids",
+        "fun"
     ],
-    "categories": [
-        "Fun"
-    ],
-    "tags": "ovos skill voice assistant",
-    "category": "Fun",
-    "package_name": "skill-monster-scanner",
-    "pip_spec": "skill-monster-scanner",
-    "license": "Apache-2.0",
-    "author": "Mike Gray",
-    "version": "1.0.1",
-    "url": "https://github.com/mikejgray/skill-monster-scanner",
-    "skill_id": "skill-monster-scanner.mikejgray=skill_monster_scanner:MonsterScannerSkill",
-    "skillname": "skill-monster-scanner",
-    "authorname": "mikejgray",
-    "name": "skill-monster-scanner",
-    "title": "skill-monster-scanner",
-    "requirements": {
-        "python": [
-            "ovos-utils",
-            "ovos-bus-client",
-            "ovos-workshop",
-            "ovos-plugin-manager"
-        ],
-        "system": {},
-        "skill": []
-    },
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
-    "incompatible_skills": [],
-    "platforms": [
-        "i386",
-        "x86_64",
-        "ia64",
-        "arm64",
-        "arm"
-    ],
-    "branch": "master",
-    "foldername": null,
-    "short_description": null
+    "version": "2.0.0"
 }
