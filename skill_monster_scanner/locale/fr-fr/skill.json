@@ -1,0 +1,27 @@
+{
+  "skill_id": "skill_monster_scanner.oscillatelabsllc",
+  "source": "https://github.com/oscillatelabsllc/skill-monster-scanner",
+  "package_name": "skill-monster-scanner",
+  "pip_spec": "skill-monster-scanner",
+  "license": "Apache-2.0",
+  "author": [
+    "Oscillate Labs <mike@oscillatelabs.net>"
+  ],
+  "icon": "",
+  "images": [],
+  "name": "Détecteur de monstres",
+  "description": "Un skill OVOS qui vérifie s'il y a des monstres sous le lit pour rassurer les enfants le soir.",
+  "examples": [
+    "Y a-t-il des monstres sous mon lit ?",
+    "Le croque-mitaine est-il sous le lit ?"
+  ],
+  "tags": [
+    "ovos",
+    "neon",
+    "skill",
+    "voice",
+    "kids",
+    "fun"
+  ],
+  "version": "2.0.0"
+}
