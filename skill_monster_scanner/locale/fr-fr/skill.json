@@ -10,10 +10,10 @@
   "icon": "",
   "images": [],
   "name": "Détecteur de monstres",
-  "description": "Un skill OVOS qui vérifie s'il y a des monstres sous le lit pour rassurer les enfants avant de dormir.",
+  "description": "Un skill OVOS qui vérifie s'il y a des monstres sous le lit pour rassurer les enfants au moment du coucher.",
   "examples": [
     "Peux-tu vérifier s'il y a des monstres sous mon lit ?",
-    "Est-ce qu'il y a un croque-mitaine sous le lit ?"
+    "Regarde s'il y a un croque-mitaine sous le lit"
   ],
   "tags": [
     "ovos",
