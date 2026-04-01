@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "skill-monster-scanner"
-version = "2.0.0"
+version = "2.1.0"
 description = "An OVOS voice skill that scans for monsters under the bed"
 authors = [{ name = "Oscillate Labs", email = "mike@oscillatelabs.net" }]
 license = "Apache-2.0"
