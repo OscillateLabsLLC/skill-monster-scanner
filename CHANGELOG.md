@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.0.0...v2.1.0) (2026-04-01)
+
+
+### Features
+
+* add fr-fr locale ([1bcc730](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/1bcc730c9536cc90a55e04e80761f973105b4748))
+
 ## [2.0.0](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/1.0.1...v2.0.0) (2026-03-18)
 
 
