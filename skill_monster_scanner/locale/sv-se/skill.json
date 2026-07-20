@@ -1,0 +1,27 @@
+{
+    "skill_id": "skill_monster_scanner.oscillatelabsllc",
+    "source": "https://github.com/oscillatelabsllc/skill-monster-scanner",
+    "package_name": "skill-monster-scanner",
+    "pip_spec": "skill-monster-scanner",
+    "license": "Apache-2.0",
+    "author": [
+        "Oscillate Labs <mike@oscillatelabs.net>"
+    ],
+    "icon": "",
+    "images": [],
+    "name": "skill-monster-scanner",
+    "description": "En OVOS röstskill som skannar efter monster under sängen",
+    "examples": [
+        "Finns det monster under min säng?",
+        "Är busen under sängen?"
+    ],
+    "tags": [
+        "ovos",
+        "neon",
+        "skill",
+        "voice",
+        "kids",
+        "fun"
+    ],
+    "version": "2.1.0"
+}
