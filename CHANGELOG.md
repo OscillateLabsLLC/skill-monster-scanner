@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.1.0...v2.2.0) (2026-07-21)
+
+
+### Features
+
+* add da-dk and sv-se translations ([#7](https://github.com/OscillateLabsLLC/skill-monster-scanner/issues/7)) ([c79c160](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/c79c1606fde0c6e1e7fdc54f9efdcc9ed237458c))
+
 ## [2.1.0](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.0.0...v2.1.0) (2026-04-01)
 
 
