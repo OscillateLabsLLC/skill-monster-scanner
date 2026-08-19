@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.2.0...v2.2.1) (2026-08-19)
+
+
+### Bug Fixes
+
+* bump urllib3, requests, idna for Dependabot alerts ([#9](https://github.com/OscillateLabsLLC/skill-monster-scanner/issues/9)) ([cde3cc0](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/cde3cc039c1f27a7775a0399564ccd6d569c87a5))
+
 ## [2.2.0](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.1.0...v2.2.0) (2026-07-21)
 
 
