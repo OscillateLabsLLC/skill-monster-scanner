@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.2](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.2.1...v2.2.2) (2026-09-06)
+
+
+### Bug Fixes
+
+* **deps:** bump pytest and Pygments to clear Dependabot alerts ([#11](https://github.com/OscillateLabsLLC/skill-monster-scanner/issues/11)) ([4b1e30b](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/4b1e30b8bde2297120007974e08d886b451e1986))
+
 ## [2.2.1](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.2.0...v2.2.1) (2026-08-19)
 
 
