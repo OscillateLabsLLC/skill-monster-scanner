@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.3](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.2.2...v2.2.3) (2026-10-16)
+
+
+### Bug Fixes
+
+* **deps:** bump urllib3 to 2.8.0 ([318f973](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/318f9734e89f33dfd974c058466182709d51587f))
+* **deps:** bump urllib3 to 2.8.0 ([#13](https://github.com/OscillateLabsLLC/skill-monster-scanner/issues/13)) ([a79977c](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/a79977c24e62723bea51789df7c1e71054787e86))
+
 ## [2.2.2](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.2.1...v2.2.2) (2026-09-06)
 
 
