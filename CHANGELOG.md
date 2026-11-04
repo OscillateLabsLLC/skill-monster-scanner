@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.4](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.2.3...v2.2.4) (2026-11-04)
+
+
+### Bug Fixes
+
+* **deps:** bump certifi to 2026.10.23 ([d947485](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/d947485ab7a06d64133740ffdf3976dc59254efe))
+* **deps:** bump certifi to 2026.10.23 ([3a2e94a](https://github.com/OscillateLabsLLC/skill-monster-scanner/commit/3a2e94a2f3cc484372bc7444a5e7c47ca2efe4a5))
+
 ## [2.2.3](https://github.com/OscillateLabsLLC/skill-monster-scanner/compare/v2.2.2...v2.2.3) (2026-10-16)
 
 
